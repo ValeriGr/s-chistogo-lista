@@ -1,0 +1,234 @@
+body {
+  margin: 0;
+  background-color: #1e1e1e;
+  font-family: "Inter Regular", Arial, sans-serif;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: #f5f5f5;
+  text-decoration: underline;
+}
+a:hover {
+  text-decoration: none;
+}
+.content-section_theme_dark {
+  background-color: #131313;
+  color: #f5f5f5;
+  margin: auto;
+  width: 360px;
+  box-sizing: border-box;
+}
+.content-section_theme_bright {
+  background-color: #fee42a;
+  color: #131313;
+  margin: auto;
+  width: 360px;
+  box-sizing: border-box;
+}
+header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.header__logo-image {
+  width: 79px;
+  height: 16px;
+}
+.header__menu-list {
+  list-style-type: none;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+.header__menu-item_active {
+  text-decoration: none;
+}
+.cover {
+  padding-top: 7px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  min-height: 221px;
+  background-image: url("../images/cover.svg");
+  background-size: 95% auto;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+.accent-span {
+  font-family: "EB Garamond Regular", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  color: #ffffff;
+  line-height: 100%;
+}
+.text-center {
+  display: block;
+  text-align: center;
+}
+.text-right {
+  display: block;
+  text-align: right;
+}
+.intro {
+  padding-bottom: 38px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 16px;
+}
+.intro__heading {
+  color: #cccccc;
+  display: flex;
+  justify-content: space-between;
+  row-gap: 12px;
+}
+.intro__date {
+  white-space: nowrap;
+}
+.intro__main-text {
+  line-height: 22px;
+}
+.intro__main-text p {
+  padding-top: 24px;
+}
+.reasons {
+  padding-top: 40px;
+  padding-bottom: 39px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.reasons .accent-span {
+  font-family: "EB Garamond Medium", Arial, sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  color: #131313;
+  line-height: 115%;
+}
+.content-section__introduction {
+  padding-top: 32px;
+  font-size: 20px;
+  line-height: 27px;
+}
+.content-section__list {
+  font-size: 16px;
+  padding-top: 32px;
+  padding-left: 16px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  line-height: 22px;
+}
+.content-section__list-accent {
+  font-family: "Inter Bold", Arial, sans-serif;
+  font-weight: 700;
+}
+.how-to {
+  padding-top: 40px;
+  padding-bottom: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.how-to .accent-span {
+  font-family: "EB Garamond Medium", Arial, sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  color: #f5f5f5;
+  line-height: 115%;
+}
+.cards-list {
+  list-style-type: none;
+  padding-top: 32px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
+.card {
+  border-radius: 30px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.card_theme_dark {
+  background-color: #343434;
+}
+.card_theme_bright {
+  background-color: #fee42a;
+  color: #131313;
+}
+.card__author {
+  display: flex;
+  flex-direction: column;
+}
+.card__author-photo {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.card__author-name {
+  font-family: "Inter Bold", Arial, sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 700;
+  padding-top: 8px;
+}
+.card__content {
+  display: flex;
+  flex-direction: column;
+}
+.card__title {
+  font-family: "EB Garamond Medium", Arial, sans-serif;
+  font-style: normal;
+  font-size: 22px;
+  font-weight: 500;
+  padding-top: 8px;
+}
+.card__text {
+  font-size: 16px;
+  font-weight: 500;
+  padding-top: 8px;
+  line-height: 22px;
+}
+.card_theme_bright .card__title {
+  padding-top: 0px;
+}
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-top: 1px solid #fee42a;
+  display: flex;
+  justify-content: space-between;
+}
+footer a {
+  text-decoration: none;
+}
+.footer__copy {
+  font-size: 16px;
+}
+.footer__links {
+  font-size: 14px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  column-gap: 16px;
+}
